@@ -1,4 +1,3 @@
-/* eslint-disable */
-export default function hasValuesFromArray() {
-    return array.every((item) => set.has(item));
-};
+const setFromArray = (arr) => new Set(arr);
+
+export default setFromArray;
